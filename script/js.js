@@ -7,7 +7,7 @@ alert("your zakat=" = result)
 // TASK:2
 
 var familyMembers = +prompt("Enter your family members")
-var method = prompt( "Fitah_method?" )
+var method = prompt( "Fitah method?" )
 var Wheat=250;
 var Barley=450;
 var Raisins=2800;
@@ -27,4 +27,14 @@ else if(method== Dates)
 alert( "Your Fitrah amount=" = result )       
 
 
-// TASK-3
+// // TASK-3
+// var secretNumber= +prompt ("Enter a number from 1 to 10" )
+// if(secretNumber==8)
+//   alert("Congratulations!");
+// else if(secretNumber>8)
+//   alert ("number is too high") 
+// else if(secretNumber<8)
+//   alert("Number is too low")
+//   else{
+//     alert("Unknown operator");
+//   }    
