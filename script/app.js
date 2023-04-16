@@ -1,5 +1,5 @@
 // 6-april-2023 day 1
-// alert("Thanks for your input!");
+alert("Thanks for your input!");
 
 // var uname = "Mark";
 // uname = "Ace";
