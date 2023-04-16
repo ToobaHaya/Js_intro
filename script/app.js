@@ -129,11 +129,13 @@
 // alert("2" + "2");
 // alert("2 plus 2 equals " + 2 + 2);
 
-var spec = prompt("Your species?", "human");
-var question = "Your species?";
- var defaultAnswer = "human";
- var spec = prompt(question, defaultAnswer);
- alert(spec)
- var numberOfCats = prompt("How many cats?");
- var tooManyCats = numberOfCats + 1;
- alert(tooManyCats)
+
+// var spec = prompt("Your species?", "human");
+// var question = "Your species?";
+//  var defaultAnswer = "human";
+//  var spec = prompt(question, defaultAnswer);
+//  alert(spec)
+//  var numberOfCats = prompt("How many cats?");
+//  var tooManyCats = numberOfCats + 1;
+//  alert(tooManyCats)
+// // 
