@@ -1,12 +1,13 @@
 // TASK:1
-var zakat_person=0.025
-var user_asset= +prompt ("asset_value")
-var result= zakat_person * user_asset
-alert("your zakat=" = result)
+
+// var zakatPercentage = "0.025"
+//  var userInput = prompt("user asset") 
+//  var result = ("Your Zakat amount is " +userInput * zakatPercentage)
+//  alert(result)
 
 // TASK:2
 
-var familyMembers = +prompt("Enter your family members")
+var familyMembers =  prompt("Enter your family members")
 var method = prompt( "Fitah method?" )
 var Wheat=250;
 var Barley=450;
@@ -38,3 +39,44 @@ alert( "Your Fitrah amount=" = result )
 //   else{
 //     alert("Unknown operator");
 //   }    
+
+
+
+var familyMembers = +prompt("enter your family members", "enter ur family members");
+var fitranaMethod = prompt("choose fitrana method\n (a).wheat= Rs 250 \n (b). dates= Rs 2100\n  (c).Balary=Rs450\n (d).raisins ")
+
+var Wheat = 250 * familyMembers;
+var Dates = 2100 * familyMembers;
+var Barley = 450 * familyMembers;
+var Rasins = 2800 * familyMembers;
+
+
+
+
+
+if (fitranaMethod == "wheat") {
+    alert("The total fitrah amount of your family is: " + Wheat);
+}
+
+
+
+var dates = 2100;
+if (fitranaMethod == "dates") {
+    alert("The total fitrah amount of your family is: " + dates);
+}
+var Balary = 450;
+if (fitranaMethod == "Balary") {
+    alert("The total fitrah amount of your family is: " + Balary);
+}
+var raisins = 1800;
+if (fitranaMethod == "raisins") {
+    alert("The total fitrah amount of your family is: " + raisins);
+}
+
+var zakatPercentage = "0.025"
+ var userInput = prompt("user asset") 
+ var result = ("Your Zakat amount is " +userInput * zakatPercentage)
+ alert(result)
+
+
+4
